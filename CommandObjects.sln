@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandObjects.Web", "CommandObjects.Web\CommandObjects.Web.csproj", "{E6F965AC-D97C-4AE6-B6AA-CA27B22417B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandObjects.BookingsServiceInterface", "CommandObjects.BookingsServiceInterface\CommandObjects.BookingsServiceInterface.csproj", "{408473C6-BD0E-4ADD-8623-89781C089657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandObjects.BookingsServiceWebAdapter", "CommandObjects.BookingsServiceWebAdapter\CommandObjects.BookingsServiceWebAdapter.csproj", "{6496EDC9-4ECD-4498-AFA4-A5BE2CE0DA83}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6F965AC-D97C-4AE6-B6AA-CA27B22417B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F965AC-D97C-4AE6-B6AA-CA27B22417B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F965AC-D97C-4AE6-B6AA-CA27B22417B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F965AC-D97C-4AE6-B6AA-CA27B22417B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408473C6-BD0E-4ADD-8623-89781C089657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408473C6-BD0E-4ADD-8623-89781C089657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408473C6-BD0E-4ADD-8623-89781C089657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408473C6-BD0E-4ADD-8623-89781C089657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6496EDC9-4ECD-4498-AFA4-A5BE2CE0DA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6496EDC9-4ECD-4498-AFA4-A5BE2CE0DA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6496EDC9-4ECD-4498-AFA4-A5BE2CE0DA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6496EDC9-4ECD-4498-AFA4-A5BE2CE0DA83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
